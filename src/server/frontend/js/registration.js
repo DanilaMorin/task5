@@ -19,7 +19,7 @@ function createNewUser() {
             telefon: telefonText
         };
         var str = JSON.stringify(req1);
-        alert(str);
+        // alert(str);
         ajaxReq = new XMLHttpRequest();
         ajaxReq.onreadystatechange = processReq;
 

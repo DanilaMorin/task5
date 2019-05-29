@@ -9,7 +9,6 @@ const PORT = process.env.PORT || 1337;
 
 app.use(bodyParser());
 app.use(indexRoutes.routes());
-app.use(movieRoutes.routes());
 app.use(users.routes());
 app.use(serve(__dirname));
 

@@ -15,7 +15,7 @@ function submit() {
             passworduser: passwordText
         };
         var str = JSON.stringify(req1);
-        alert(str);
+        // alert(str);
         ajaxReq = new XMLHttpRequest();
         ajaxReq.onreadystatechange = processReq;
 
