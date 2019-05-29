@@ -1,0 +1,25 @@
+{
+  "name": "untitled45",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai-http": "^3.0.0"
+  },
+  "dependencies": {
+    "cookies": "^0.7.3",
+    "knex": "^0.13.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^5.0.0",
+    "pg": "^7.1.2",
+    "vue": "^2.6.10"
+  }
+}
