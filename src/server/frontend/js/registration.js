@@ -40,17 +40,6 @@ function processReq() {
             var otvet = JSON.parse(str1);
 
             alert(otvet.message)
-            //     if("x1" in otvet) {
-            //         var x1 = otvet["x1"];
-            //     }
-            //     var data = new  Date();
-            //     var sdata = data.getHours()+":"+data.getMinutes();
-            //     if("x2" in otvet){
-            //         var x2 = otvet["x2"];
-            //         add(sdata,str,"x1="+x1+", x2= "+x2);
-            //     }
-            //     else {
-            //         add(sdata,str,"x= "+x1);}
         }
     }
 }
